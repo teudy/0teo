@@ -2,8 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI(
     title="API de Retiros BTC",
-    docs_url="/docs",          # 👈 habilita la documentación
-    redoc_url=None             # (opcional) desactiva ReDoc si no lo usas
+    docs_url="/docs",
+    redoc_url=None
 )
 
 @app.get("/")
